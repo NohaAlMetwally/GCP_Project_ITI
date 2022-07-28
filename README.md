@@ -27,5 +27,11 @@
   * $ kubectl create -Rf gke-dep
   * $ kubectl get svc
 
-### get the load balancer IP and port 
+### get the load balancer IP and port
+
+
+![image](https://user-images.githubusercontent.com/13887135/181519952-214e4bd6-29b3-4150-be80-1f289a662940.png)
+
+![image](https://user-images.githubusercontent.com/13887135/181519724-a9c3a20e-99a9-4c11-986f-1f1754644496.png)
+
 
