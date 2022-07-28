@@ -1,6 +1,6 @@
 # GCP_Project_ITI
 
-##* For the terraform code
+## For the terraform code
   * $ terraform init
   * $ terraform plan
   * $ terraform apply
