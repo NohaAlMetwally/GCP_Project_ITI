@@ -19,7 +19,7 @@
   * $ sudo snap install kubectl --classic
   * $ kubectl --help
 
-### Connect to gcloud
+### authorize gcloud to access the Cloud Platform with Google user credentials
   * $ gcloud auth login
 
 ### SSH to GKE
