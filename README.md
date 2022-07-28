@@ -1,11 +1,11 @@
 # GCP_Project_ITI
 
-* For the terraform code
+<h1>* For the terraform code</h1>
   * $ terraform init
   * $ terraform plan
   * $ terraform apply
 
-* Build Dockerfile for the pyhton app and upload the image to gcr
+* Build Docker image for the pyhton app from the Dockerfile, and upload the image to gcr
   * $ docker build -t image-name .
   * $ docker tag busybox gcr.io/my-project/image-name
   * $ docker push gcr.io/my-project/image-name
