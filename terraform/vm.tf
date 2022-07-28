@@ -1,3 +1,4 @@
+#create private VM
 resource "google_compute_instance" "private-vm" {
   name         = "private-vm"
   machine_type = "e2-micro"
@@ -7,7 +8,7 @@ resource "google_compute_instance" "private-vm" {
       image = "ubuntu-os-cloud/ubuntu-1804-lts"
     }
   }
-
+  #associate it with management subnet
   network_interface {
     network = google_compute_network.main-network.id
     #private subnet
